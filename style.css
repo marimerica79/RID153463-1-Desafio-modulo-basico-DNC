@@ -1,0 +1,141 @@
+*{
+   margin: 0px; 
+   font-family: "inter";
+}
+
+#menusuperior{
+    background-color:  #303030;
+    color:  #FFFFFF;
+    width: 1440;
+    height: 475;
+}
+
+#titulo-menusuperior{
+    margin-left: 80px;
+    width: 1440px;
+    height: 80px;
+   padding-top: 120px;
+  
+}
+
+#texto-menusuperior{
+    margin-top: 10px;
+    margin-left: 80px;
+    padding-bottom: 100px;
+    padding-left: 10px;
+    
+}
+ 
+#menuinformacional{
+    background-color: #FFFFFF;
+    color: #000;
+    font-family: Inter;
+    font-weight: 450;
+    font-size: 25px;
+    line-height: -15px;
+    letter-spacing: 0%;
+    margin-top: 50px;
+    padding-bottom: 150px;
+    width: 1440px;
+    height: 229px;
+
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+    
+.secaotextoimagem{
+    justify-content: flex-end;
+    display: flex;
+    grid-auto-flow: column;
+    columns: auto;
+    width: 735;
+    height: 161px
+}
+
+#titulo1{
+   font-family: "inter";
+    font-weight: 250px;
+    font-size: 40px;
+    line-height: 30px;
+    margin-left: 50px;
+    vertical-align: middle;
+    padding-bottom: 50px;
+}
+
+#texto2{
+    font-family: "inter";
+    font-weight: 300px;
+    font-size: 25px;
+    line-height: 40px;
+    margin-left: 50px;
+}
+   
+
+#imagem{
+    justify-content: flex-end;
+    display: flex;
+    padding-right: 60px;
+    margin-top: -480px;
+    padding-bottom: 100px;
+    width: 510;
+    height: 605;
+}
+
+#tituloformulario{
+    width: 1440;
+    height: 638;
+    top: 1478px;
+    background-color: #303030;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 40px;
+    margin: 30px;
+
+}
+
+    #FORMULARIO{
+        text-align: center;
+        background-color: #303030;
+    }
+
+    #tituloformulario{
+        
+        font-size: 40px;
+        margin: 40px;
+        padding-top: 50px;
+        
+    }
+
+    input{
+        width: 400px;
+        height: 50px;
+        margin: 20px;
+        border: 0px;
+        border-radius: 5px;
+        padding-left: 10px;
+       
+    }
+
+    button{
+        background: #C07212;
+        color: #FFFFFF;
+        border: 0px;
+        height: 50px;
+        width: 200px;
+        border-radius: 5px;
+        margin-bottom: 50px;
+        margin: 30px;
+        font-weight: bolder;
+        cursor: pointer;
+    }
+
+    button:hover{
+        background: #d77b0b;
+        color: #FFFFFF;
+       transform: translateY(-7px);
+       box-shadow:0px 15px 20px  #553208bb;
+       transition-duration: 0,7px;
+    }
